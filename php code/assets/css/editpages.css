@@ -1,0 +1,56 @@
+/* Button styling for the dashboard link */
+button {
+    background-color: #27ac1f; /* Forest Green button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #85fe78; /* Screaming Green button hover */
+}
+
+/* Form styling */
+form {
+    margin-bottom: 30px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #12181e; /* Bunker text color */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Error block styling */
+.error-block {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Light red border */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Heading styling */
+h2 {
+    color: #27ac1f; /* Forest Green heading */
+    text-align: center;
+    margin-bottom: 20px;
+}

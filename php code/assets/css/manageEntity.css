@@ -1,0 +1,178 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #12181e; /* Bunker text color */
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Space for footer */
+    position: relative; /* Ensure proper positioning for logout button */
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #12181e; /* Bunker background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+}
+
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #12181e; /* Bunker background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 80px auto 60px; /* Margin to account for header and footer height */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title styling */
+h2 {
+    color: #27ac1f; /* Forest Green heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+h3 {
+    color: #12181e; /* Bunker text color */
+    border-bottom: 2px solid #27ac1f; /* Forest Green underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button, .manage-button {
+    background-color: #27ac1f; /* Forest Green button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover, .manage-button:hover {
+    background-color: #85fe78; /* Screaming Green button hover */
+}
+
+/* Form styling */
+form {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #27ac1f; /* Forest Green header */
+    color: #ffffff; /* White text */
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row color */
+}
+
+table tr:hover {
+    background-color: #e1f5e1; /* Light green hover effect */
+}
+
+/* Entity card styling */
+.entity-sections {
+    display: flex;
+    flex-direction: column; /* Stack entity cards vertically */
+    gap: 20px;
+}
+
+.entity-card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Set a fixed height to ensure uniform size */
+    height: auto; 
+    overflow: auto; /* Allow scrolling if content overflows */
+}
+
+.entity-card h4 {
+    color: #27ac1f; /* Forest Green heading */
+    margin-bottom: 10px;
+}
+
+.entity-card p {
+    margin: 0;
+    color: #12181e; /* Bunker text color */
+}
+
+/* Button styling inside form */
+form button {
+    background-color: #27ac1f; /* Forest Green button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #85fe78; /* Screaming Green button hover */
+}
+
+/* Action links */
+a {
+    color: #27ac1f; /* Forest Green link */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #85fe78; /* Screaming Green link hover */
+}

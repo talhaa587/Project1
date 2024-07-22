@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #12181e; /* Bunker text color */
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Make space for footer */
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #12181e; /* Bunker background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+}
+
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #12181e; /* Bunker background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+}
+
+
+header a, footer a {
+    color: #85fe78; /* Screaming Green links */
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 80px auto 60px; /* Margin to account for header and footer height */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+h2 {
+    color: #27ac1f; /* Forest Green heading */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #12181e; /* Bunker text color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #27ac1f; /* Forest Green focus border */
+}
+
+button {
+    background-color: #27ac1f; /* Forest Green button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #85fe78; /* Screaming Green button hover */
+    color : #000000;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #12181e; /* Bunker text color */
+}
+
+#error-block {
+    background-color: #ffcccc; /* Light red background for errors */
+    border: 1px solid #ff0000; /* Red border */
+    color: #ff0000; /* Red text */
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Link styling */
+a {
+    color: #27ac1f; /* Forest Green links */
+}
+
+a:hover {
+    color: #85fe78; /* Screaming Green link hover */
+}
+select {
+    background-color: #ffffff; /* White background for dropdown */
+    color: #12181e; /* Text color (Bunker) */
+    border: 1px solid #27ac1f; /* Border color (Forest Green) */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width: 100%; /* Full width for better alignment */
+}
+
+/* Styling for option elements */
+select option {
+    background-color: #ffffff; /* White background for options */
+    color: #12181e; /* Text color (Bunker) */
+}
+
+/* Select dropdown focus effect */
+select:focus {
+    border-color: #85fe78; /* Secondary color on focus (Screaming Green) */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for focus indication */
+    outline: none; /* Remove default outline */
+}
+
+/* Styling for disabled state */
+select:disabled {
+    background-color: #d1d1d1; /* Light grey for disabled background */
+    color: #a1a1a1; /* Darker grey for disabled text */
+    cursor: not-allowed; /* Not-allowed cursor for disabled state */
+}
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    color: #27ac1f; /* Primary color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #85fe78; /* Secondary color on hover */
+    text-decoration: underline;
+}
